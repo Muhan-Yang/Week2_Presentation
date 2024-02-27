@@ -91,8 +91,6 @@ Sentinel-3  (Source: [ESA](https://www.esa.int/Space_in_Member_States/Spain/Sent
 - **Background Needs**
   - Europe urgently requires independent EO capability for safety and climate response, addressed by the GMES initiative of EC and ESA.
 
---
-
 ```{r echo=FALSE, out.width='40%', fig.align='center'}
 knitr::include_graphics('img/1-s2.0-S0034425712000685-gr1.jpg')
 ```
@@ -134,47 +132,95 @@ knitr::kable(sentinel_instruments, format = 'html')
   
 ---
 
-## Application Cases
-- **Oceanography**:
-  - "Sentinel-3 satellites offer unprecedented insights into ocean dynamics, including surface temperature, marine life distribution, and pollutants. These data support the implementation of marine conservation policies and the management of marine resources."
-- **Climate Change**:
-  - "The mission provides crucial evidence of global warming, tracking glacier retreat, ice melt in polar regions, and changes in global sea levels. Sentinel-3's data feeds into climate models, helping predict future climate scenarios and informing global climate policy."
-  
----
-
-## Application Cases
-
-- **Environmental Monitoring**:
-  - "Sentinel-3 plays a key role in monitoring land changes, offering data on deforestation, desertification, and urban sprawl. This information is vital for sustainable land management, conservation efforts, and assessing human impact on natural habitats."
-- **Disaster Management**:
-  - "In the event of natural or man-made disasters, Sentinel-3's rapid data acquisition enables effective emergency response and damage assessment. This facilitates more efficient allocation of resources and helps mitigate the impact on affected communities."
-  
-  
----
 class: inverse, center, middle
 
-# Contributions and Future of Sentinel-3🛰
-  
----
-## Reflection
-- **Adapting to Change**:
-  - "Sentinel-3's journey reflects humanity's growing awareness and response to environmental challenges. Its data not only highlights the changes our planet is undergoing but also empowers us to take meaningful action towards sustainability."
-- **Scientific and Societal Impact**:
-  - "The mission's contributions extend beyond scientific research, influencing policy decisions, enhancing public awareness, and driving educational initiatives. It showcases the integral role of space technology in addressing Earth's pressing environmental issues."
-  
----
-## Reflection
+## Contributions and Future of Sentinel-3🛰
 
-- **A Call to Action**:
-  - "While Sentinel-3 provides the data necessary for understanding environmental changes, it is up to us—researchers, policymakers, and the public—to utilize this information. It serves as a call to action for climate change mitigation, environmental conservation, and sustainable development."
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T9WCWnk_qN4?si=_a_2vpVSxVUR-8Cn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+]
   
 ---
 
-## Conclusion and Resources
-- **Summary**:
-  - "Sentinel-3 exemplifies the critical role of Earth observation in fostering a sustainable future. Through comprehensive monitoring of our oceans, land, and atmosphere, it provides the data needed to address global environmental challenges."
-- **Resources**:
-  - 
+## Application Cases: Maritime Monitoring
+Sentinel-3 satellites are key to ocean conservation, providing essential data on sea temperatures, marine ecosystems, and pollutants. This information is critical for:
+
+--
+
+  - **Ocean Dynamics**: They track sea surface temperatures and heights to study currents and climate effects, essential for weather forecasting (Mulero-Martinez et al. 2022) and climate analysis.
+  
+--
+
+  - **Marine Life**: Analyzing ocean color, they identify phytoplankton and assess ecosystem health (Ogashawara 2019), aiding fisheries management and biodiversity protection.
+  
+--
+
+  - **Pollution**: Equipped to spot oil spills and pollutants, they bolster disaster response and pollution control, protecting marine and coastal environments.
+  
+---
+## Application Cases: Land monitoring
+Sentinel-3 significantly impacts land management, aiding in agriculture, forestry, and urban planning through its comprehensive land observations. It offers crucial insights into:
+
+--
+
+  - **Vegetation Health and Land Cover**: Essential for evaluating vegetation condition, agricultural practices, and land cover changes, supporting food security and resource management.
+  
+--
+
+  - **Surface Temperature and Fire Detection**: Measures land temperature, vital for water management and early wildfire detection, enhancing disaster response and risk reduction.
+  
+--
+
+  - **Water Bodies Monitoring**: Provides detailed views of aquatic systems, aiding in water quality and hydrology studies (Moro et al. 2022), crucial for resource management and ecosystem support.
+
+---
+
+## Reflection: Jason-3 VS Sentinel-3a
+Jason-3 and Sentinel-3a lead in ocean monitoring, crucial for global sea level analysis, differing in design and scope.
+
+.pull-left[
+- **Jason-3**: Focuses on precise sea surface height measurements, advancing the TOPEX/Poseidon legacy with detailed sea level data.
+
+- **Sentinel-3a**: ESA's Copernicus asset, Sentinel-3a broadens the scope with sea surface height, temperature, ocean color, and more, enhancing environmental monitoring.
+]
+
+.pull-right[
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics('img/21-mission-current-jason3.height-700.png')
+```
+    
+    
+    
+Jason-3 (Source: [NASA](https://www.jpl.nasa.gov/missions/jason-3))
+]
+
+--
+
+**Distinction**: The main distinction between the two lies in Sentinel-3a's orbit and measurement approaches, enabling it to **cover more of the Earth and collect a variety of environmental data**. This capability enriches its monitoring tasks but may influence its **precision in tracking long-term sea level changes** compared to Jason-3 (Zawadzki & Ablain 2016).
+  
+---
+## Reflection: Future Development Considerations
+
+
+Facing the challenges of climate change, the demand for global sea level monitoring is increasing, necessitating future satellite missions to balance between **measurement precision and monitoring scope**.
+
+It is expected that through technological innovation and international collaboration, future satellite missions will provide **higher precision sea level data** while covering a wider range of environmental indicators to support global climate change research.
+
+Furthermore, ensuring **data continuity and accuracy** through seamless relay between satellite missions and calibration will be crucial. This may require developing new algorithms and calibration techniques to integrate data from different satellite missions.
+
+  
+---
+
+## References
+Donlon, C. et al., 2012. The Global Monitoring for Environment and Security (GMES) Sentinel-3 mission, Remote Sensing of Environment, årg. 120, s. 37–57.
+
+Moro, L.D. et al., 2022. Geospatial Analysis with Landsat Series and Sentinel-3B OLCI Satellites to Assess Changes in Land Use and Water Quality over Time in Brazil, Sustainability, årg. 14, nr. 15, s. 9733.
+
+Mulero-Martinez, R. et al., 2022. The Use of Sentinel-3 Altimetry Data to Assess Wind Speed from the Weather Research and Forecasting (WRF) Model: Application over the Gulf of Cadiz, Remote Sensing, årg. 14, nr. 16, s. 4036.
+
+Ogashawara, I., 2019. The Use of Sentinel-3 Imagery to Monitor Cyanobacterial Blooms, Environments, årg. 6, nr. 6, s. 60.
+
+Zawadzki, L. & Ablain, M., 2016. Accuracy of the mean sea level continuous record with future altimetric  missions: Jason-3 vs. Sentinel-3a, Ocean Science, årg. 12, nr. 1, s. 9–18.
 
 ---
 class: inverse, center, middle
