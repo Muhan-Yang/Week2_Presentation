@@ -225,11 +225,11 @@ Furthermore, ensuring **data continuity and accuracy** through seamless relay be
 ---
 
 ## References
-Donlon, C. et al., (2012). The Global Monitoring for Environment and Security (GMES) Sentinel-3 mission, Remote Sensing of Environment, årg. 120, s. 37–57.
+Donlon, C. et al. (2012). The Global Monitoring for Environment and Security (GMES) Sentinel-3 mission, Remote Sensing of Environment, årg. 120, s. 37–57.
 
-Moro, L.D. et al., (2022). Geospatial Analysis with Landsat Series and Sentinel-3B OLCI Satellites to Assess Changes in Land Use and Water Quality over Time in Brazil, Sustainability, årg. 14, nr. 15, s. 9733.
+Moro, L.D. et al. (2022). Geospatial Analysis with Landsat Series and Sentinel-3B OLCI Satellites to Assess Changes in Land Use and Water Quality over Time in Brazil, Sustainability, årg. 14, nr. 15, s. 9733.
 
-Mulero-Martinez, R. et al., (2022). The Use of Sentinel-3 Altimetry Data to Assess Wind Speed from the Weather Research and Forecasting (WRF) Model: Application over the Gulf of Cadiz, Remote Sensing, årg. 14, nr. 16, s. 4036.
+Mulero-Martinez, R. et al. (2022). The Use of Sentinel-3 Altimetry Data to Assess Wind Speed from the Weather Research and Forecasting (WRF) Model: Application over the Gulf of Cadiz, Remote Sensing, årg. 14, nr. 16, s. 4036.
 
 ```{R, results='asis', echo=FALSE, message=FALSE, warning=FALSE}
 PrintBibliography(myBib, start = 1, end = 5)
